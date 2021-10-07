@@ -8,6 +8,7 @@
       "visualstudioexptteam.vscodeintellicode"
   ],
   "dockerFile": "Dockerfile",
+  "initializeCommand": "docker system prune -f -a",
   "settings": {
         "terminal.integrated.profiles.linux": {
           "zsh (login)": {
@@ -15,9 +16,5 @@
             "args": ["-l"]
           }
         }
-      },
-      "files.exclude": {
-          "**/CODE_OF_CONDUCT.md": true,
-          "**/LICENSE": true
       }
   }

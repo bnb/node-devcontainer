@@ -1,5 +1,5 @@
-FROM bitandbang/devenv
+FROM bitandbang/devenv:latest
 
-WORKDIR /home/
+WORKDIR /home/developer/
 
 COPY . .
